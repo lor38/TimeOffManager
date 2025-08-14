@@ -29,8 +29,8 @@ dotnet run
 
 ## 🖼️ Zrzut ekranu
 
-*(Dodaj plik `screenshot.png` do repozytorium, aby wyświetlić obrazek)*  
-![Widok aplikacji](screenshot.png)
+![Widok aplikacji](Images/screenshot.png)
+
 
 ## 👤 Autor
 
