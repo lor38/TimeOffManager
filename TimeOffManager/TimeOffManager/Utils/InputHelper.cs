@@ -27,7 +27,7 @@ namespace TimeOffManager.Utils
         {
             while (true)
             {
-                Console.Write($"{prompt} (rrrr-mm-dd): ");
+                Console.Write($"{prompt} (dd-mm-yyyy): ");
                 if (DateTime.TryParse(Console.ReadLine(), out DateTime date))
                     return date;
 
@@ -41,13 +41,16 @@ namespace TimeOffManager.Utils
             Console.WriteLine("1. Wypoczynkowy");
             Console.WriteLine("2. Na żądanie");
             Console.WriteLine("3. Bezpłatny");
-
+            Console.WriteLine("4. Chorobowy"); 
+             Console.WriteLine("5. Okolicznościowy");
             int choice = GetInt("Twój wybór");
             return choice switch
             {
                 1 => LeaveType.Wypoczynkowy,
                 2 => LeaveType.NaZadanie,
                 3 => LeaveType.Bezplatny,
+                4=>LeaveType.Chorobowy,
+                5=>LeaveType.Okolicznościowy,
                 _ => LeaveType.Wypoczynkowy
             };
         }

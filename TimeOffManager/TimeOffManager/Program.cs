@@ -35,7 +35,7 @@ namespace TimeOffManager
             foreach (var line in logo)
             {
                 Console.WriteLine(line);
-                Thread.Sleep(50); // efekt animacji
+                Thread.Sleep(50); 
             }
 
             Console.ResetColor();

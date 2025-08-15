@@ -73,7 +73,7 @@ namespace TimeOffManager.Services
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"✅ Wniosek dodany dla {employee.Name} {employee.Surname}");
-            Console.WriteLine($"📅 Okres: {request.StartDate:yyyy-MM-dd} → {request.EndDate:yyyy-MM-dd}");
+            Console.WriteLine($"📅 Okres: {request.StartDate:dd-MM-yyyy} → {request.EndDate:dd-MM-yyyy}");
             Console.WriteLine($"🗓️ Pozostało dni urlopowych: {employee.AvailableDays - request.Duration}");
             Console.ResetColor();
         }

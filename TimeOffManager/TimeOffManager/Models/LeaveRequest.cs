@@ -15,7 +15,7 @@ namespace TimeOffManager.Models
 
         public override string ToString()
         {
-            return $"{StartDate:yyyy-MM-dd} → {EndDate:yyyy-MM-dd} | {Type} | {Status} | {Comment}";
+            return $"{StartDate:dd-MM-yyyy} → {EndDate:dd-MM-yyyy} | {Type} | {Status} | {Comment}";
         }
     }
 }

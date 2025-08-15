@@ -27,9 +27,25 @@ cd TimeOffManager
 dotnet run
 ```
 
-## 🖼️ Zrzut ekranu
+## 🖼️ Zrzuty ekranu
 
+*Widok aplikacji TimeOffManager*  
 ![Widok aplikacji](Images/screenshot.png)
+
+*Menu główne*  
+![Menu główne](Images/screenshot1.png)
+
+*Formularz składania wniosku urlopowego*  
+![Składanie wniosku](Images/screenshot3.png)
+
+*Dane pracowników*  
+![Dane pracowników](Images/screenshot2.png)
+
+*Przetwarzanie wniosku urlopowego*  
+![Przetwarzanie wniosku](Images/screenshot4.png)
+
+*Statystyki pracownika*  
+![Statystyki pracownika](Images/screenshot5.png)
 
 
 ## 👤 Autor
